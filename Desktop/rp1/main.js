@@ -1,15 +1,31 @@
-function square(x) {
-  return x * x;
-}
-function convertHeight(feet, inches){
-  return ("feet" * 12) + "inches") * 2.54
-}
-
- convertHeight 5;10  ;
-
-function abs(x){
-  if (x >=0){
-    return (x);
+function power(a,b){
+  if(b===0){
+    return 1;
   }
-    return (-x)
+return a* power(a,b-1)
+}
+function sum(n){
+   if(n===0){
+  return 0
+}
+ return n + sum(n-1)
+}
+function sum(n){
+   if(n===1){
+  return 1
+}
+ return n * sum(n-1)
+}
+function reeatString(str,count){
+   if (count = 0){
+      return ''
+   } 
+   return str*reeatString(str,count-1)
+}
+
+
+function sum(n){
+   if(n===1){
+      return 1
+   }
 }

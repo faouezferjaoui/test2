@@ -1,0 +1,7 @@
+console.log($('body'))
+$("body").css("background-color","red")
+$('img').attr('src', 'http://i.imgur.com/nWGCwiE.gif')
+$('#notification').html('<div class="alert">Hold on! <b>an error</b> has occured!</p>')
+$('.container').append('<p>What is the difference between <i>.append()</i> and .html()?</p>')
+$(".everything").css('font-size','150px')
+$('.holder').css('border-style', 'dotted','border-color','blue')
